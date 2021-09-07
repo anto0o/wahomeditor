@@ -1,25 +1,25 @@
 {
-    "name": "WhatsAsenaDuplicated",
-    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "name": "wahomeditor",
+    "description": "bot untuk homeditor.",
+    "logo": "https://i.hizliresim.com/59hetht.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "asena", "ai-bot", "AsenaDev", "wabot", "wabot asena", "wp bot"],
-    "repository": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "repository": "https://github.com/anto0o/wahomeditor",
+    "website":   "https://t.me/homeditor",
+    "success_url": "https://t.me/homeditor",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "Qr.Js Masukin string yg habis di scan",
             "required": true
         },
         "SUDO": {
-            "description": "Kullanıcılara tüm yetkileri verir. It gives all the privileges to the users. => 90xxx,0,90xxx,0,90xxx...",
+            "description": "masukin nomor WA anda yg untuk di jadikan bot di awali +62",
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
+            "description": "Pilih bahasa bot dengan ID
             "required": true,
-            "value": "TR"
+            "value": "ID"
         },
         "PROXY": {
             "description": "Proxy Adresi. Proxy Address => http://some-host:1234",
@@ -46,7 +46,7 @@
             "required": true,
             "value": "false"
         },
-        "NO_LOG": {
+        "NO_LO
             "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
             "required": true,
             "value": "false"
